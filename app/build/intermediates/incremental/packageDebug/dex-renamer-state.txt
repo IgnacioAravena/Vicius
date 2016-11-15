@@ -1,0 +1,7 @@
+#Mon Nov 14 21:36:17 CLST 2016
+base.0=/home/nacho/AndroidStudioProjects/ViciusGamer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_668880e9aa088a3b31a5be5d3fd75e21f803c917
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/nacho/AndroidStudioProjects/ViciusGamer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_954f34271565ef5a7a2db670a6914b6f467407f3/classes.dex
+base.1=/home/nacho/AndroidStudioProjects/ViciusGamer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_954f34271565ef5a7a2db670a6914b6f467407f3
+file.0=/home/nacho/AndroidStudioProjects/ViciusGamer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_668880e9aa088a3b31a5be5d3fd75e21f803c917/classes.dex

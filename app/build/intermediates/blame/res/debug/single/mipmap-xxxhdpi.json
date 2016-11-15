@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/nacho/AndroidStudioProjects/ViciusGamer/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/viciusgamer.png",
+        "source": "/home/nacho/AndroidStudioProjects/ViciusGamer/app/src/main/res/mipmap-xxxhdpi/viciusgamer.png"
+    },
+    {
+        "merged": "/home/nacho/AndroidStudioProjects/ViciusGamer/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/home/nacho/AndroidStudioProjects/ViciusGamer/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    }
+]
