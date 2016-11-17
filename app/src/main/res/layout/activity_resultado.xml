@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_resultado"
     android:layout_width="match_parent"
@@ -10,5 +11,26 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="ignacioaravena.viciusgamer.Resultado"
     android:background="@android:color/background_dark">
+
+    <TextView
+        android:text="Resultadps de la Busqueda:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:id="@+id/textView"
+        android:textColor="@android:color/background_light"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:text='"Juego"'
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_busqueda"
+        android:textColor="@android:color/background_light"
+        android:layout_alignBaseline="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="18dp" />
 
 </RelativeLayout>

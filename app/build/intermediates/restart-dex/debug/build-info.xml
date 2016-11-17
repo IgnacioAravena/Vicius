@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86_64,x86"
+    abi="armeabi-v7a,armeabi"
     api-level="23"
     density="xxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="25707873126684"
-    token="9078273983009854055"
+    timestamp="6836868974480"
+    token="-4145847656058747147"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
@@ -23,21 +23,28 @@
         duration="0" />
 
     <artifact
-        location="/home/nacho/AndroidStudioProjects/ViciusGamer/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        location="C:\Users\Nacho\Desktop\Vicius\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
         type="RESOURCES" />
 
     <build
-        timestamp="25419609463533"
+        timestamp="3964016589361"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/home/nacho/AndroidStudioProjects/ViciusGamer/app/build/outputs/apk/app-debug.apk"
+            location="C:\Users\Nacho\Desktop\Vicius\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="25707873126684"
+        timestamp="6708255493447"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/home/nacho/AndroidStudioProjects/ViciusGamer/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            location="C:\Users\Nacho\Desktop\Vicius\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="6836868974480"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Nacho\Desktop\Vicius\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
             type="RESOURCES" />
     </build>
 

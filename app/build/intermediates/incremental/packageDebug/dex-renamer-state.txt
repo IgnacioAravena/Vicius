@@ -1,7 +1,7 @@
-#Mon Nov 14 21:36:17 CLST 2016
-base.0=/home/nacho/AndroidStudioProjects/ViciusGamer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_668880e9aa088a3b31a5be5d3fd75e21f803c917
+#Wed Nov 16 23:22:15 CLT 2016
+base.0=C\:\\Users\\Nacho\\Desktop\\Vicius\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_608813ec253124d66bdeff45a78c43542bb88d45
 renamed.1=classes.dex
 renamed.0=classes2.dex
-file.1=/home/nacho/AndroidStudioProjects/ViciusGamer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_954f34271565ef5a7a2db670a6914b6f467407f3/classes.dex
-base.1=/home/nacho/AndroidStudioProjects/ViciusGamer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_954f34271565ef5a7a2db670a6914b6f467407f3
-file.0=/home/nacho/AndroidStudioProjects/ViciusGamer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_668880e9aa088a3b31a5be5d3fd75e21f803c917/classes.dex
+file.1=C\:\\Users\\Nacho\\Desktop\\Vicius\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_403e9bb0d9d5baef4b3568f9f5fe6926cbb4af68\\classes.dex
+base.1=C\:\\Users\\Nacho\\Desktop\\Vicius\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_403e9bb0d9d5baef4b3568f9f5fe6926cbb4af68
+file.0=C\:\\Users\\Nacho\\Desktop\\Vicius\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_608813ec253124d66bdeff45a78c43542bb88d45\\classes.dex

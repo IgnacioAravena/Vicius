@@ -6,13 +6,5 @@
     {
         "merged": "C:\\Users\\Nacho\\Desktop\\Vicius\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\viciusgamer.png",
         "source": "C:\\Users\\Nacho\\Desktop\\Vicius\\app\\src\\main\\res\\mipmap-xxxhdpi\\viciusgamer.png"
-    },
-    {
-        "merged": "C:\\home\\nacho\\AndroidStudioProjects\\ViciusGamer\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\viciusgamer.png",
-        "source": "C:\\home\\nacho\\AndroidStudioProjects\\ViciusGamer\\app\\src\\main\\res\\mipmap-xxxhdpi\\viciusgamer.png"
-    },
-    {
-        "merged": "C:\\home\\nacho\\AndroidStudioProjects\\ViciusGamer\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
-        "source": "C:\\home\\nacho\\AndroidStudioProjects\\ViciusGamer\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     }
 ]
