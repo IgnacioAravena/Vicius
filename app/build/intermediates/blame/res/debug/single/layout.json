@@ -1,11 +1,15 @@
 [
     {
+        "merged": "C:\\Users\\Nacho\\Desktop\\Vicius\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\Nacho\\Desktop\\Vicius\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\Nacho\\Desktop\\Vicius\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
         "source": "C:\\Users\\Nacho\\Desktop\\Vicius\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "C:\\Users\\Nacho\\Desktop\\Vicius\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
-        "source": "C:\\Users\\Nacho\\Desktop\\Vicius\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+        "merged": "C:\\Users\\Nacho\\Desktop\\Vicius\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_row.xml",
+        "source": "C:\\Users\\Nacho\\Desktop\\Vicius\\app\\src\\main\\res\\layout\\list_row.xml"
     },
     {
         "merged": "C:\\Users\\Nacho\\Desktop\\Vicius\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
@@ -68,6 +72,10 @@
         "source": "C:\\Users\\Nacho\\Desktop\\Vicius\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
+        "merged": "C:\\Users\\Nacho\\Desktop\\Vicius\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview.xml",
+        "source": "C:\\Users\\Nacho\\Desktop\\Vicius\\app\\src\\main\\res\\layout\\listview.xml"
+    },
+    {
         "merged": "C:\\Users\\Nacho\\Desktop\\Vicius\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
         "source": "C:\\Users\\Nacho\\Desktop\\Vicius\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_template_big_media.xml"
     },
@@ -82,6 +90,10 @@
     {
         "merged": "C:\\Users\\Nacho\\Desktop\\Vicius\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
         "source": "C:\\Users\\Nacho\\Desktop\\Vicius\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nacho\\Desktop\\Vicius\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_detalle.xml",
+        "source": "C:\\Users\\Nacho\\Desktop\\Vicius\\app\\src\\main\\res\\layout\\activity_detalle.xml"
     },
     {
         "merged": "C:\\Users\\Nacho\\Desktop\\Vicius\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",

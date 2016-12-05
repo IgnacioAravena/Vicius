@@ -5,9 +5,9 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="6836868974480"
+    timestamp="215608648080874"
     token="-4145847656058747147"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
@@ -27,22 +27,22 @@
         type="RESOURCES" />
 
     <build
-        timestamp="3964016589361"
-        verifier="FULL_BUILD_REQUESTED" >
+        timestamp="214626781430669"
+        verifier="MANIFEST_FILE_CHANGE" >
         <artifact
             location="C:\Users\Nacho\Desktop\Vicius\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="6708255493447"
+        timestamp="215338365597813"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Nacho\Desktop\Vicius\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
             type="DEX" />
     </build>
     <build
-        timestamp="6836868974480"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="215608648080874"
+        verifier="COMPATIBLE" >
         <artifact
             location="C:\Users\Nacho\Desktop\Vicius\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
             type="RESOURCES" />

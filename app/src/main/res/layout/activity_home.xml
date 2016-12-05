@@ -20,17 +20,6 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true" />
 
-    <Button
-        android:text="Buscar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btn_buscar"
-        android:layout_marginBottom="76dp"
-        android:elevation="0dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:onClick="buscar" />
-
     <EditText
         android:layout_width="250dp"
         android:layout_height="30dp"
@@ -43,5 +32,18 @@
         android:selectAllOnFocus="false"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Buscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_buscar"
+        android:elevation="0dp"
+        android:onClick="buscar"
+        android:layout_below="@+id/search"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        style="@android:style/Widget.Material.Button"
+        android:textColor="@android:color/background_dark" />
 
 </RelativeLayout>

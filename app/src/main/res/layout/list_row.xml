@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <!--  listrow  -->
+    <LinearLayout android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:layout_alignParentLeft="true"
+
+        android:layout_marginRight="5dip">
+
+        <ImageView
+            android:id="@+id/list_row_image"
+            android:layout_width="30dip"
+            android:layout_height="30dip"/>
+
+    </LinearLayout>
+
+    <!-- titulo de la categoria -->
+    <TextView
+        android:id="@+id/list_row_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="title"
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="18dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/thumbnail" />
+
+</RelativeLayout>
+ 
