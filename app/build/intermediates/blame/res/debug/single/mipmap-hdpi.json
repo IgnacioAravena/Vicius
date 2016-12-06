@@ -2,5 +2,13 @@
     {
         "merged": "C:\\Users\\Nacho\\Desktop\\Vicius\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
         "source": "C:\\Users\\Nacho\\Desktop\\Vicius\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Cristoph\\Documents\\Vicius\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Cristoph\\Documents\\Vicius\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Cristoph\\Documents\\Vicius\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launchers.png",
+        "source": "C:\\Users\\Cristoph\\Documents\\Vicius\\app\\src\\main\\res\\mipmap-hdpi\\ic_launchers.png"
     }
 ]

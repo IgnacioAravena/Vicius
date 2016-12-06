@@ -84,9 +84,6 @@ public class Detalle extends AppCompatActivity {
                     // listado de tiendas
                     ArrayList<String> dataTiendas = obDatosJSONTiendas(new String(responseBody));
                     cargaLista(dataTiendas);
-
-
-
                 }
             }
             @Override

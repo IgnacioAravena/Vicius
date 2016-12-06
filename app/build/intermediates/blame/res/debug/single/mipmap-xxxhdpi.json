@@ -4,7 +4,15 @@
         "source": "C:\\Users\\Nacho\\Desktop\\Vicius\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\Cristoph\\Documents\\Vicius\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\viciusgamer.png",
+        "source": "C:\\Users\\Cristoph\\Documents\\Vicius\\app\\src\\main\\res\\mipmap-xxxhdpi\\viciusgamer.png"
+    },
+    {
         "merged": "C:\\Users\\Nacho\\Desktop\\Vicius\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\viciusgamer.png",
         "source": "C:\\Users\\Nacho\\Desktop\\Vicius\\app\\src\\main\\res\\mipmap-xxxhdpi\\viciusgamer.png"
+    },
+    {
+        "merged": "C:\\Users\\Cristoph\\Documents\\Vicius\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Cristoph\\Documents\\Vicius\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     }
 ]
