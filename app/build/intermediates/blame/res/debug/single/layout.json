@@ -16,12 +16,12 @@
         "source": "C:\\Users\\Nacho\\Desktop\\Vicius\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Nacho\\Desktop\\Vicius\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "C:\\Users\\Nacho\\Desktop\\Vicius\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_media_action.xml"
-    },
-    {
         "merged": "C:\\Users\\Cristoph\\Documents\\Vicius\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
         "source": "C:\\Users\\Cristoph\\Documents\\Vicius\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "C:\\Users\\Nacho\\Desktop\\Vicius\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\Nacho\\Desktop\\Vicius\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_media_action.xml"
     },
     {
         "merged": "C:\\Users\\Nacho\\Desktop\\Vicius\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
@@ -242,6 +242,10 @@
     {
         "merged": "C:\\Users\\Nacho\\Desktop\\Vicius\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
         "source": "C:\\Users\\Nacho\\Desktop\\Vicius\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Cristoph\\Documents\\Vicius\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_row_tiendas.xml",
+        "source": "C:\\Users\\Cristoph\\Documents\\Vicius\\app\\src\\main\\res\\layout\\list_row_tiendas.xml"
     },
     {
         "merged": "C:\\Users\\Nacho\\Desktop\\Vicius\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",

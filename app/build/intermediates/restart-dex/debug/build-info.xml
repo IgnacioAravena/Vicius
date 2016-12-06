@@ -5,19 +5,19 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="83853763076961"
+    timestamp="86059403034048"
     token="-4145847656058747147"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="211" />
+        duration="780" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="52" />
+        duration="55" />
     <task
         name="verifier"
         duration="4" />
@@ -34,21 +34,17 @@
             type="MAIN" />
     </build>
     <build
-        timestamp="80578185075013"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="85782112575674"
+        verifier="R_CLASS_CHANGE" >
+        <artifact
+            location="C:\Users\Cristoph\Documents\Vicius\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
         <artifact
             location="C:\Users\Cristoph\Documents\Vicius\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
             type="DEX" />
     </build>
     <build
-        timestamp="83771998753962"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\Cristoph\Documents\Vicius\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-            type="RESOURCES" />
-    </build>
-    <build
-        timestamp="83853763076961"
+        timestamp="86059403034048"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Cristoph\Documents\Vicius\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"

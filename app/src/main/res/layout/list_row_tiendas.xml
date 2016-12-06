@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:layout_gravity="center"
+    android:paddingBottom="4dp"
+    android:background="@android:color/background_dark">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="80dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewPrecio"
+            android:textSize="20sp"
+            android:text="precio"
+            android:gravity="center"
+            android:paddingLeft="@dimen/activity_vertical_margin" />
+
+        <TextView
+            android:text="          "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView12" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewTienda"
+            android:textSize="20sp"
+            android:text="tienda"
+            android:gravity="right" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewUrl"
+            android:textAlignment="viewEnd"
+            android:gravity="right"
+            android:textSize="8sp"
+            android:visibility="invisible" />
+    </TableRow>
+</TableLayout>
+ 

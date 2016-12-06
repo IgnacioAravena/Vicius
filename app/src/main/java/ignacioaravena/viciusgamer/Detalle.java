@@ -8,7 +8,10 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.TableLayout;
+import android.widget.TableRow;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -30,6 +33,7 @@ public class Detalle extends AppCompatActivity {
     ImageView imageview_juego;
     ListView tiendas;
     Bundle bundle;
+    ArrayList<String> datos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,15 +53,11 @@ public class Detalle extends AppCompatActivity {
 
         tiendas.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position,
-                                    long id) {
-
-                String item = ((TextView)view).getText().toString();
-                String[] data = item.split("\\[");
-                String url = data[data.length - 1];
-                url = url.split("\\]")[0];
-//                Toast.makeText(getBaseContext(), url, Toast.LENGTH_LONG).show();
-                // pagina tienda
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                TableLayout tr = (TableLayout) view;
+                TextView t = (TextView) tr.findViewById(R.id.textViewUrl);
+//                Toast.makeText(getBaseContext(), t.getText(), Toast.LENGTH_LONG).show();
+                String url = (String) t.getText();
                 Intent myWebLink = new Intent(android.content.Intent.ACTION_VIEW);
                 myWebLink.setData(Uri.parse(url));
                 startActivity(myWebLink);
@@ -132,11 +132,11 @@ public class Detalle extends AppCompatActivity {
                 data = jsonArray.getJSONObject(i).getString("dealers");
                 JSONArray ddata = new JSONArray(data);
                 for (int j=0; j < ddata.length(); j++){
-                    // $IIIII - TIENDA - [URL]
+                    // $$$$,TIENDA,URL
                     if(!Objects.equals(ddata.getJSONObject(j).getString("name"), "Amazon")){
-                        dealer = "$" + ddata.getJSONObject(j).getString("price")+ " - ";
-                        dealer = dealer + ddata.getJSONObject(j).getString("name")+" - [";
-                        dealer = dealer + ddata.getJSONObject(j).getString("url") + "]";
+                        dealer = "$" + ddata.getJSONObject(j).getString("price")+ ",";
+                        dealer = dealer + ddata.getJSONObject(j).getString("name")+",";
+                        dealer = dealer + ddata.getJSONObject(j).getString("url");
                         dealers.add(dealer);
                     }
                 }
@@ -148,8 +148,32 @@ public class Detalle extends AppCompatActivity {
     }
 
     public void cargaLista(ArrayList<String> datos){
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,datos);
+//        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,datos);
+//        tiendas.setAdapter(adapter);
+
+        ArrayList<String> Arr_precio = new ArrayList<String>();
+        ArrayList<String> Arr_tienda = new ArrayList<String>();
+        ArrayList<String> Arr_url = new ArrayList<String>();
+
+        for(int i=0; i < datos.size(); i++){
+            String[] j = datos.get(i).split(",");
+            Arr_precio.add(j[0]);
+            Arr_tienda.add(j[1]);
+            Arr_url.add(j[2]);
+        }
+
+        String[] precio = new String[Arr_precio.size()];
+        precio = Arr_precio.toArray(precio);
+
+        String[] tienda = new String[Arr_tienda.size()];
+        tienda = Arr_tienda.toArray(tienda);
+
+        String[] url = new String[Arr_url.size()];
+        url = Arr_url.toArray(url);
+
+        CustomListTiendas adapter = new CustomListTiendas(Detalle.this, precio, tienda, url );
         tiendas.setAdapter(adapter);
+
     }
 
 }
