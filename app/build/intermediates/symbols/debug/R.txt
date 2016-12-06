@@ -723,7 +723,8 @@ int layout select_dialog_multichoice_material 0x7f040027
 int layout select_dialog_singlechoice_material 0x7f040028
 int layout support_simple_spinner_dropdown_item 0x7f040029
 int mipmap ic_launcher 0x7f030000
-int mipmap viciusgamer 0x7f030001
+int mipmap ic_launchers 0x7f030001
+int mipmap viciusgamer 0x7f030002
 int string abc_action_bar_home_description 0x7f060000
 int string abc_action_bar_home_description_format 0x7f060001
 int string abc_action_bar_home_subtitle_description_format 0x7f060002
